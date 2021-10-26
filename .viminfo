@@ -21,9 +21,9 @@ $cyan
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1635246325,,"q"
+|2,0,1635260328,,"q"
 :wq
-|2,0,1634919725,,"wq"
+|2,0,1635260310,,"wq"
 :w
 |2,0,1634917006,,"w"
 :set nonumber norelativenumber
@@ -131,32 +131,140 @@ $cyan
 |3,1,36,0,1,0,1634918394,"startup"
 
 # File marks:
-'0  56  0  ~/lacework.yaml
-|4,48,56,0,1635246325,"~/lacework.yaml"
-'1  1  0  ~/lacework.yaml
-|4,49,1,0,1634920820,"~/lacework.yaml"
-'2  1  0  ~/lacework.yaml
-|4,50,1,0,1634920820,"~/lacework.yaml"
-'3  135  0  ~/lacework.yaml
-|4,51,135,0,1634920732,"~/lacework.yaml"
-'4  135  0  ~/lacework.yaml
-|4,52,135,0,1634920732,"~/lacework.yaml"
-'5  135  0  ~/lacework.yaml
-|4,53,135,0,1634920732,"~/lacework.yaml"
-'6  135  0  ~/lacework.yaml
-|4,54,135,0,1634920732,"~/lacework.yaml"
-'7  131  20  ~/lacework.yaml
-|4,55,131,20,1634919725,"~/lacework.yaml"
-'8  131  20  ~/lacework.yaml
-|4,56,131,20,1634919725,"~/lacework.yaml"
-'9  131  20  ~/lacework.yaml
-|4,57,131,20,1634919725,"~/lacework.yaml"
+'0  1  0  ~/.gitignore
+|4,48,1,0,1635260328,"~/.gitignore"
+'1  3  9  ~/.gitignore
+|4,49,3,9,1635260310,"~/.gitignore"
+'2  3  9  ~/.gitignore
+|4,50,3,9,1635260310,"~/.gitignore"
+'3  2  7  ~/.gitignore
+|4,51,2,7,1635260296,"~/.gitignore"
+'4  2  7  ~/.gitignore
+|4,52,2,7,1635260296,"~/.gitignore"
+'5  2  7  ~/.gitignore
+|4,53,2,7,1635260296,"~/.gitignore"
+'6  2  7  ~/.gitignore
+|4,54,2,7,1635260296,"~/.gitignore"
+'7  1  3  ~/.gitignore
+|4,55,1,3,1635260270,"~/.gitignore"
+'8  1  3  ~/.gitignore
+|4,56,1,3,1635260270,"~/.gitignore"
+'9  1  3  ~/.gitignore
+|4,57,1,3,1635260270,"~/.gitignore"
 
 # Jumplist (newest first):
+-'  1  0  ~/.gitignore
+|4,39,1,0,1635260328,"~/.gitignore"
+-'  3  9  ~/.gitignore
+|4,39,3,9,1635260310,"~/.gitignore"
+-'  3  9  ~/.gitignore
+|4,39,3,9,1635260310,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1635260302,"~/.gitignore"
+-'  2  7  ~/.gitignore
+|4,39,2,7,1635260296,"~/.gitignore"
+-'  2  7  ~/.gitignore
+|4,39,2,7,1635260296,"~/.gitignore"
+-'  2  7  ~/.gitignore
+|4,39,2,7,1635260296,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1635260287,"~/.gitignore"
+-'  1  3  ~/.gitignore
+|4,39,1,3,1635260270,"~/.gitignore"
+-'  56  0  ~/lacework.yaml
+|4,39,56,0,1635246325,"~/lacework.yaml"
+-'  56  0  ~/lacework.yaml
+|4,39,56,0,1635246325,"~/lacework.yaml"
+-'  56  0  ~/lacework.yaml
+|4,39,56,0,1635246325,"~/lacework.yaml"
+-'  56  0  ~/lacework.yaml
+|4,39,56,0,1635246325,"~/lacework.yaml"
+-'  56  0  ~/lacework.yaml
+|4,39,56,0,1635246325,"~/lacework.yaml"
+-'  56  0  ~/lacework.yaml
+|4,39,56,0,1635246325,"~/lacework.yaml"
+-'  56  0  ~/lacework.yaml
+|4,39,56,0,1635246325,"~/lacework.yaml"
+-'  56  0  ~/lacework.yaml
+|4,39,56,0,1635246325,"~/lacework.yaml"
+-'  56  0  ~/lacework.yaml
+|4,39,56,0,1635246325,"~/lacework.yaml"
+-'  56  0  ~/lacework.yaml
+|4,39,56,0,1635246325,"~/lacework.yaml"
+-'  56  0  ~/lacework.yaml
+|4,39,56,0,1635246325,"~/lacework.yaml"
+-'  56  0  ~/lacework.yaml
+|4,39,56,0,1635246325,"~/lacework.yaml"
+-'  56  0  ~/lacework.yaml
+|4,39,56,0,1635246325,"~/lacework.yaml"
+-'  56  0  ~/lacework.yaml
+|4,39,56,0,1635246325,"~/lacework.yaml"
+-'  56  0  ~/lacework.yaml
+|4,39,56,0,1635246325,"~/lacework.yaml"
 -'  56  0  ~/lacework.yaml
 |4,39,56,0,1635246325,"~/lacework.yaml"
 -'  1  0  ~/lacework.yaml
 |4,39,1,0,1635246319,"~/lacework.yaml"
+-'  1  0  ~/lacework.yaml
+|4,39,1,0,1635246319,"~/lacework.yaml"
+-'  1  0  ~/lacework.yaml
+|4,39,1,0,1635246319,"~/lacework.yaml"
+-'  1  0  ~/lacework.yaml
+|4,39,1,0,1635246319,"~/lacework.yaml"
+-'  1  0  ~/lacework.yaml
+|4,39,1,0,1635246319,"~/lacework.yaml"
+-'  1  0  ~/lacework.yaml
+|4,39,1,0,1635246319,"~/lacework.yaml"
+-'  1  0  ~/lacework.yaml
+|4,39,1,0,1635246319,"~/lacework.yaml"
+-'  1  0  ~/lacework.yaml
+|4,39,1,0,1635246319,"~/lacework.yaml"
+-'  1  0  ~/lacework.yaml
+|4,39,1,0,1635246319,"~/lacework.yaml"
+-'  1  0  ~/lacework.yaml
+|4,39,1,0,1635246319,"~/lacework.yaml"
+-'  1  0  ~/lacework.yaml
+|4,39,1,0,1635246319,"~/lacework.yaml"
+-'  1  0  ~/lacework.yaml
+|4,39,1,0,1635246319,"~/lacework.yaml"
+-'  1  0  ~/lacework.yaml
+|4,39,1,0,1635246319,"~/lacework.yaml"
+-'  1  0  ~/lacework.yaml
+|4,39,1,0,1635246319,"~/lacework.yaml"
+-'  1  0  ~/lacework.yaml
+|4,39,1,0,1635246319,"~/lacework.yaml"
+-'  1  0  ~/lacework.yaml
+|4,39,1,0,1635246319,"~/lacework.yaml"
+-'  1  0  ~/lacework.yaml
+|4,39,1,0,1634920820,"~/lacework.yaml"
+-'  1  0  ~/lacework.yaml
+|4,39,1,0,1634920820,"~/lacework.yaml"
+-'  1  0  ~/lacework.yaml
+|4,39,1,0,1634920820,"~/lacework.yaml"
+-'  1  0  ~/lacework.yaml
+|4,39,1,0,1634920820,"~/lacework.yaml"
+-'  1  0  ~/lacework.yaml
+|4,39,1,0,1634920820,"~/lacework.yaml"
+-'  1  0  ~/lacework.yaml
+|4,39,1,0,1634920820,"~/lacework.yaml"
+-'  1  0  ~/lacework.yaml
+|4,39,1,0,1634920820,"~/lacework.yaml"
+-'  1  0  ~/lacework.yaml
+|4,39,1,0,1634920820,"~/lacework.yaml"
+-'  1  0  ~/lacework.yaml
+|4,39,1,0,1634920820,"~/lacework.yaml"
+-'  1  0  ~/lacework.yaml
+|4,39,1,0,1634920820,"~/lacework.yaml"
+-'  1  0  ~/lacework.yaml
+|4,39,1,0,1634920820,"~/lacework.yaml"
+-'  1  0  ~/lacework.yaml
+|4,39,1,0,1634920820,"~/lacework.yaml"
+-'  1  0  ~/lacework.yaml
+|4,39,1,0,1634920820,"~/lacework.yaml"
+-'  1  0  ~/lacework.yaml
+|4,39,1,0,1634920820,"~/lacework.yaml"
+-'  1  0  ~/lacework.yaml
+|4,39,1,0,1634920820,"~/lacework.yaml"
 -'  1  0  ~/lacework.yaml
 |4,39,1,0,1634920820,"~/lacework.yaml"
 -'  135  0  ~/lacework.yaml
@@ -165,196 +273,97 @@ $cyan
 |4,39,135,0,1634920732,"~/lacework.yaml"
 -'  135  0  ~/lacework.yaml
 |4,39,135,0,1634920732,"~/lacework.yaml"
--'  1  0  ~/lacework.yaml
-|4,39,1,0,1634920689,"~/lacework.yaml"
--'  131  20  ~/lacework.yaml
-|4,39,131,20,1634919725,"~/lacework.yaml"
--'  131  20  ~/lacework.yaml
-|4,39,131,20,1634919725,"~/lacework.yaml"
--'  131  20  ~/lacework.yaml
-|4,39,131,20,1634919725,"~/lacework.yaml"
--'  131  20  ~/lacework.yaml
-|4,39,131,20,1634919725,"~/lacework.yaml"
--'  1  0  ~/lacework.yaml
-|4,39,1,0,1634919681,"~/lacework.yaml"
--'  135  23  ~/lacework.yaml
-|4,39,135,23,1634918399,"~/lacework.yaml"
--'  135  23  ~/lacework.yaml
-|4,39,135,23,1634918399,"~/lacework.yaml"
--'  1  0  ~/lacework.yaml
-|4,39,1,0,1634918380,"~/lacework.yaml"
--'  81  17  ~/lacework.yaml
-|4,39,81,17,1634917859,"~/lacework.yaml"
--'  81  17  ~/lacework.yaml
-|4,39,81,17,1634917859,"~/lacework.yaml"
--'  81  17  ~/lacework.yaml
-|4,39,81,17,1634917859,"~/lacework.yaml"
--'  81  17  ~/lacework.yaml
-|4,39,81,17,1634917859,"~/lacework.yaml"
--'  81  17  ~/lacework.yaml
-|4,39,81,17,1634917859,"~/lacework.yaml"
--'  81  17  ~/lacework.yaml
-|4,39,81,17,1634917859,"~/lacework.yaml"
--'  1  0  ~/lacework.yaml
-|4,39,1,0,1634917832,"~/lacework.yaml"
--'  71  15  ~/lacework.yaml
-|4,39,71,15,1634917753,"~/lacework.yaml"
--'  71  15  ~/lacework.yaml
-|4,39,71,15,1634917753,"~/lacework.yaml"
--'  71  15  ~/lacework.yaml
-|4,39,71,15,1634917753,"~/lacework.yaml"
--'  71  15  ~/lacework.yaml
-|4,39,71,15,1634917753,"~/lacework.yaml"
--'  71  15  ~/lacework.yaml
-|4,39,71,15,1634917753,"~/lacework.yaml"
--'  71  15  ~/lacework.yaml
-|4,39,71,15,1634917753,"~/lacework.yaml"
--'  71  15  ~/lacework.yaml
-|4,39,71,15,1634917753,"~/lacework.yaml"
--'  1  0  ~/lacework.yaml
-|4,39,1,0,1634917736,"~/lacework.yaml"
--'  79  31  ~/lacework.yaml
-|4,39,79,31,1634917724,"~/lacework.yaml"
--'  79  31  ~/lacework.yaml
-|4,39,79,31,1634917724,"~/lacework.yaml"
--'  79  31  ~/lacework.yaml
-|4,39,79,31,1634917724,"~/lacework.yaml"
--'  79  31  ~/lacework.yaml
-|4,39,79,31,1634917724,"~/lacework.yaml"
--'  79  31  ~/lacework.yaml
-|4,39,79,31,1634917724,"~/lacework.yaml"
--'  79  31  ~/lacework.yaml
-|4,39,79,31,1634917724,"~/lacework.yaml"
--'  79  31  ~/lacework.yaml
-|4,39,79,31,1634917724,"~/lacework.yaml"
--'  79  31  ~/lacework.yaml
-|4,39,79,31,1634917724,"~/lacework.yaml"
--'  78  2  ~/lacework.yaml
-|4,39,78,2,1634917701,"~/lacework.yaml"
--'  78  2  ~/lacework.yaml
-|4,39,78,2,1634917701,"~/lacework.yaml"
--'  78  2  ~/lacework.yaml
-|4,39,78,2,1634917701,"~/lacework.yaml"
--'  78  2  ~/lacework.yaml
-|4,39,78,2,1634917701,"~/lacework.yaml"
--'  78  2  ~/lacework.yaml
-|4,39,78,2,1634917701,"~/lacework.yaml"
--'  78  2  ~/lacework.yaml
-|4,39,78,2,1634917701,"~/lacework.yaml"
--'  78  2  ~/lacework.yaml
-|4,39,78,2,1634917701,"~/lacework.yaml"
--'  78  2  ~/lacework.yaml
-|4,39,78,2,1634917701,"~/lacework.yaml"
--'  118  6  ~/lacework.yaml
-|4,39,118,6,1634917658,"~/lacework.yaml"
--'  118  6  ~/lacework.yaml
-|4,39,118,6,1634917658,"~/lacework.yaml"
--'  118  6  ~/lacework.yaml
-|4,39,118,6,1634917658,"~/lacework.yaml"
--'  118  6  ~/lacework.yaml
-|4,39,118,6,1634917658,"~/lacework.yaml"
--'  118  6  ~/lacework.yaml
-|4,39,118,6,1634917658,"~/lacework.yaml"
--'  118  6  ~/lacework.yaml
-|4,39,118,6,1634917658,"~/lacework.yaml"
--'  118  6  ~/lacework.yaml
-|4,39,118,6,1634917658,"~/lacework.yaml"
--'  118  6  ~/lacework.yaml
-|4,39,118,6,1634917658,"~/lacework.yaml"
--'  1  0  ~/lacework.yaml
-|4,39,1,0,1634917633,"~/lacework.yaml"
--'  75  20  ~/lacework.yaml
-|4,39,75,20,1634917525,"~/lacework.yaml"
--'  75  20  ~/lacework.yaml
-|4,39,75,20,1634917525,"~/lacework.yaml"
--'  75  20  ~/lacework.yaml
-|4,39,75,20,1634917525,"~/lacework.yaml"
--'  75  20  ~/lacework.yaml
-|4,39,75,20,1634917525,"~/lacework.yaml"
--'  75  20  ~/lacework.yaml
-|4,39,75,20,1634917525,"~/lacework.yaml"
--'  75  20  ~/lacework.yaml
-|4,39,75,20,1634917525,"~/lacework.yaml"
--'  81  20  ~/lacework.yaml
-|4,39,81,20,1634917525,"~/lacework.yaml"
--'  75  20  ~/lacework.yaml
-|4,39,75,20,1634917525,"~/lacework.yaml"
--'  81  20  ~/lacework.yaml
-|4,39,81,20,1634917525,"~/lacework.yaml"
--'  75  20  ~/lacework.yaml
-|4,39,75,20,1634917525,"~/lacework.yaml"
--'  1  0  ~/lacework.yaml
-|4,39,1,0,1634917493,"~/lacework.yaml"
--'  80  24  ~/lacework.yaml
-|4,39,80,24,1634917457,"~/lacework.yaml"
--'  74  24  ~/lacework.yaml
-|4,39,74,24,1634917457,"~/lacework.yaml"
--'  80  24  ~/lacework.yaml
-|4,39,80,24,1634917457,"~/lacework.yaml"
--'  74  24  ~/lacework.yaml
-|4,39,74,24,1634917457,"~/lacework.yaml"
--'  80  24  ~/lacework.yaml
-|4,39,80,24,1634917457,"~/lacework.yaml"
--'  74  24  ~/lacework.yaml
-|4,39,74,24,1634917457,"~/lacework.yaml"
--'  80  24  ~/lacework.yaml
-|4,39,80,24,1634917457,"~/lacework.yaml"
--'  74  24  ~/lacework.yaml
-|4,39,74,24,1634917457,"~/lacework.yaml"
--'  80  24  ~/lacework.yaml
-|4,39,80,24,1634917457,"~/lacework.yaml"
--'  74  24  ~/lacework.yaml
-|4,39,74,24,1634917457,"~/lacework.yaml"
--'  80  24  ~/lacework.yaml
-|4,39,80,24,1634917457,"~/lacework.yaml"
--'  74  24  ~/lacework.yaml
-|4,39,74,24,1634917457,"~/lacework.yaml"
--'  80  24  ~/lacework.yaml
-|4,39,80,24,1634917457,"~/lacework.yaml"
--'  74  24  ~/lacework.yaml
-|4,39,74,24,1634917457,"~/lacework.yaml"
--'  80  24  ~/lacework.yaml
-|4,39,80,24,1634917457,"~/lacework.yaml"
--'  74  24  ~/lacework.yaml
-|4,39,74,24,1634917457,"~/lacework.yaml"
--'  74  24  ~/lacework.yaml
-|4,39,74,24,1634917457,"~/lacework.yaml"
--'  1  0  ~/lacework.yaml
-|4,39,1,0,1634917409,"~/lacework.yaml"
--'  82  21  ~/lacework.yaml
-|4,39,82,21,1634917248,"~/lacework.yaml"
--'  76  21  ~/lacework.yaml
-|4,39,76,21,1634917248,"~/lacework.yaml"
--'  82  21  ~/lacework.yaml
-|4,39,82,21,1634917248,"~/lacework.yaml"
--'  76  21  ~/lacework.yaml
-|4,39,76,21,1634917248,"~/lacework.yaml"
--'  82  21  ~/lacework.yaml
-|4,39,82,21,1634917248,"~/lacework.yaml"
--'  76  21  ~/lacework.yaml
-|4,39,76,21,1634917248,"~/lacework.yaml"
--'  82  21  ~/lacework.yaml
-|4,39,82,21,1634917248,"~/lacework.yaml"
--'  76  21  ~/lacework.yaml
-|4,39,76,21,1634917248,"~/lacework.yaml"
--'  82  21  ~/lacework.yaml
-|4,39,82,21,1634917248,"~/lacework.yaml"
--'  76  21  ~/lacework.yaml
-|4,39,76,21,1634917248,"~/lacework.yaml"
--'  82  21  ~/lacework.yaml
-|4,39,82,21,1634917248,"~/lacework.yaml"
--'  76  21  ~/lacework.yaml
-|4,39,76,21,1634917248,"~/lacework.yaml"
--'  82  21  ~/lacework.yaml
-|4,39,82,21,1634917248,"~/lacework.yaml"
--'  76  21  ~/lacework.yaml
-|4,39,76,21,1634917248,"~/lacework.yaml"
--'  82  21  ~/lacework.yaml
-|4,39,82,21,1634917248,"~/lacework.yaml"
--'  76  21  ~/lacework.yaml
-|4,39,76,21,1634917248,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
+-'  135  0  ~/lacework.yaml
+|4,39,135,0,1634920732,"~/lacework.yaml"
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	*	1635260323	0
+	"	1	0
+	^	3	10
+	.	3	9
+	+	1	4
+	+	2	8
+	+	3	9
 
 > ~/lacework.yaml
 	*	1635246324	0
