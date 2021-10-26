@@ -1,0 +1,135 @@
+mqtt:
+  broker: localhost
+  #port: 8883
+  port: 1883
+  client_id: screen
+  keepalive: 60
+  username: user
+  password: pass
+  #certificate: /etc/ssl/certs/DST_Root_CA_X3.pem
+  topic: infopanel/#
+
+RGBMatrix:
+  led-rows: 64
+  led-cols: 64
+  led-chain: 2
+  led-parallel: 1
+  led-pwm-bits: 11
+  led-brightness: 50
+  led-gpio-mapping: adafruit-hat-pwm
+  led-scan-mode: 0
+  led-pwm-lsb-nanoseconds: 130
+  led-show-refresh: false
+  led-slowdown-gpio: 1
+  led-no-hardware-pulse: false
+
+sprites:
+
+  laceworkaccount:
+      type: DynamicFancyText
+      label: 'Account'
+      data_label: lacework_account
+      label_color: red
+      value_color: cyan
+      font_name: 5x7.bdf
+  
+  eventtimestamp:
+      type: DynamicFancyText
+      label: 'Date'
+      data_label: event_timestamp
+      label_color: red
+      value_color: cyan
+      font_name: 5x7.bdf
+
+  eventtitle:
+      type: DynamicFancyText
+      label: 'Title'
+      data_label: event_title
+      label_color: red
+      value_color: cyan
+      font_name: 5x7.bdf
+
+  eventsource:
+      type: DynamicFancyText
+      label: 'Source'
+      data_label: event_source
+      label_color: red
+      value_color: cyan
+      font_name: 5x7.bdf
+
+  eventdescription:
+      type: DynamicFancyText
+      #label: 'Description '
+      data_label: event_description
+      label_color: red
+      value_color: white
+      font_name: 5x7.bdf
+      dx: -1 
+      ticks_per_movement: 3
+      can_flip: false
+
+  ipv4addressint:
+      type: DynamicFancyText
+      data_label: ipv4addressint
+      value_color: yellow
+      font_name: 7x14.bdf
+
+  ipv4addressext:
+      type: DynamicFancyText
+      data_label: ipv4addressext
+      value_color: yellow
+      font_name: 7x14.bdf
+
+  logoimage:
+      type: Image
+      path: /home/pi/images/laceworklogo.jpg
+
+scenes:
+  eventscene:
+    sprites:
+      - laceworkaccount:
+          x: 0
+          y: 10
+      - eventtimestamp:
+          x: 0
+          y: 20
+      - eventtitle:
+          x: 0
+          y: 30
+      - eventsource:
+          x: 0
+          y: 40
+      - eventdescription:
+          x: 128 
+          y: 55
+
+  logoscene:
+    sprites:
+      - logoimage:
+          x: 0
+          y: 0
+
+  ipscene:
+    sprites:
+      - ipv4addressint:
+          x: 10
+          y: 20
+      - ipv4addressext:
+          x: 10
+          y: 40
+modes:
+    startup:
+      - logoscene:
+          duration: 1
+    
+    events:
+      - eventscene:
+          duration: 1
+  
+    ipmode:
+      - ipscene:
+          duration: 5
+
+global:
+    font_dir: /home/pi/fonts
+    default_mode: ipmode

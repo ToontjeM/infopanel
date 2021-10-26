@@ -1,0 +1,118 @@
+mqtt:
+  broker: localhost
+  #port: 8883
+  port: 1883
+  client_id: screen
+  keepalive: 60
+  username: user
+  password: pass
+  #certificate: /etc/ssl/certs/DST_Root_CA_X3.pem
+  topic: impinj/screen/#
+
+RGBMatrix:
+  led-rows: 32
+  led-cols: 64
+  led-chain: 1
+  led-parallel: 1
+  led-pwm-bits: 11
+  led-brightness: 100
+  led-gpio-mapping: adafruit-hat-pwm
+  led-scan-mode: 0
+  led-pwm-lsb-nanoseconds: 130
+  led-show-refresh: false
+  led-slowdown-gpio: 2
+  led-no-hardware-pulse: false
+#DummyMatrix:
+
+sprites:
+
+  thresholdIn:
+      type: DynamicFancyText
+      label: 'In '
+      data_label: in
+      label_color: red
+      value_color: red
+      font_name: 8x13B.bdf
+
+  thresholdOut:
+      type: DynamicFancyText
+      label: 'Out'
+      data_label: out
+      label_color: yellow
+      value_color: yellow
+      font_name: 8x13B.bdf
+
+  thresholdheader:
+      type: FancyText
+      text: Threshold
+      font_name: 6x10.bdf
+      pallete:
+         text:
+            - 255
+            - 100
+            - 255
+
+  inventorycount:
+      type: DynamicFancyText
+      label: ''
+      data_label: count
+      value_color: red
+      font_name: 9x18B.bdf
+
+  inventoryheader:
+      type: FancyText
+      text: Inventory
+      font_name: 6x10.bdf
+      pallete:
+         text:
+            - 255
+            - 100
+            - 255
+  logoimage:
+      type: Image
+      path: /home/pi/images/impinj.jpg
+
+scenes:
+  thresholdscene:
+      sprites:
+        - thresholdheader:
+            x: 0
+            y: 8
+        - thresholdIn:
+            x: 0
+            y: 20
+        - thresholdOut:
+            x: 0
+            y: 32
+
+  inventoryscene:
+      sprites:
+        - inventoryheader:
+            x: 0
+            y: 8
+        - inventorycount:
+            x: 20
+            y: 25
+  logoscene:
+      sprites:
+        - logoimage:
+            x: 0
+            y: 0
+modes:
+  threshold:
+    - thresholdscene:
+        duration: 1
+        brightness: 100
+
+  inventory:
+    - inventoryscene:
+        duration: 1
+        brightness: 100
+  startup:
+    - logoscene:
+        duration: 1
+        brightness: 100
+
+global:
+    font_dir: /home/pi/fonts
+    default_mode: threshold

@@ -1,0 +1,5 @@
+# HSTS 1.0 Known Hosts database for GNU Wget.
+# Edit at your own risk.
+# <hostname>	<port>	<incl. subdomains>	<created>	<max-age>
+www.npmjs.com	0	0	1565006817	31536000
+raw.githubusercontent.com	0	0	1565007213	31536000

@@ -1,0 +1,126 @@
+mqtt:
+  broker: localhost
+  #port: 8883
+  port: 1883
+  client_id: screen
+  keepalive: 60
+  username: user
+  password: pass
+  #certificate: /etc/ssl/certs/DST_Root_CA_X3.pem
+  topic: House/screen/#
+
+RGBMatrix:
+  led-rows: 32
+  led-cols: 64
+  led-chain: 1
+  led-parallel: 1
+  led-pwm-bits: 11
+  led-brightness: 100
+  led-gpio-mapping: adafruit-hat-pwm
+  led-scan-mode: 0
+  led-pwm-lsb-nanoseconds: 130
+  led-show-refresh: false
+  led-slowdown-gpio: 2
+  led-no-hardware-pulse: false
+#DummyMatrix:
+
+sprites: 
+
+
+  Main:
+      type: Temperature
+      label: 'Indoors '
+      low_val: 15.0
+      high_val: 23.0
+      data_label: Main
+      
+      font_name: tom-thumb.bdf
+  Outside:
+      type: Temperature
+      label: 'Outside '
+      low_val: 10.0
+      high_val: 25.0
+      data_label: Outside
+      font_name: tom-thumb.bdf
+  Hotwater: 
+      type: Temperature
+      label: 'HotWater'
+      low_val: 15
+      high_val: 60
+      data_label: Hotwater
+      font_name: tom-thumb.bdf
+  Office: 
+      type: Temperature
+      label: 'Office  '
+      low_val: 15
+      high_val: 25
+      data_label: office
+      font_name: tom-thumb.bdf
+  Pump: 
+      type: Temperature
+      label: 'Pump    ' 
+      low_val: 10
+      high_val: 60
+      data_label: Pump
+      font_name: tom-thumb.bdf
+      
+  page1:
+      type: FancyText
+      text: Temperature
+      pallete:
+         text:
+            - 255
+            - 100
+            - 255
+  page2:
+      type: FancyText
+      text: Other Temp
+      pallete:
+         text:
+            - 255
+            - 100
+            - 255
+
+scenes:
+  home:
+      sprites:
+        - Main:
+            x: 0
+            y: 16
+        - Outside:
+            x: 0
+            y: 24
+        - Office:
+            x: 0
+            y: 32
+        - page1:
+            x: 0
+            y: 8
+
+  other:
+      sprites:
+        - Hotwater:
+            x: 0
+            y: 16
+
+        - Pump:
+            x: 0
+            y: 24
+        - page2:
+            x: 0
+            y: 8
+
+
+modes:  
+  std:
+    - home:
+        duration: 5
+        brightness: 100
+#  new:
+    - other:
+        duration: 5
+        brightness: 100
+  
+global:
+    font_dir: /home/pi/fonts
+    default_mode: std

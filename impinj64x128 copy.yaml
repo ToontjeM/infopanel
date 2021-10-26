@@ -1,0 +1,206 @@
+mqtt:
+  broker: localhost
+  #port: 8883
+  port: 1883
+  client_id: screen
+  keepalive: 60
+  username: user
+  password: pass
+  #certificate: /etc/ssl/certs/DST_Root_CA_X3.pem
+  topic: impinj/screen/#
+
+RGBMatrix:
+  led-rows: 64
+  led-cols: 64
+  led-chain: 2
+  led-parallel: 1
+  led-pwm-bits: 11
+  led-brightness: 100
+  led-gpio-mapping: adafruit-hat-pwm
+  led-scan-mode: 0
+  led-pwm-lsb-nanoseconds: 130
+  led-show-refresh: false
+  led-slowdown-gpio: 1
+  led-no-hardware-pulse: false
+#DummyMatrix:
+
+sprites:
+
+  thresholdIn:
+      type: DynamicFancyText
+      label: 'In '
+      data_label: in
+      label_color: red
+      value_color: red
+      font_name: 10x20.bdf
+
+  thresholdOut:
+      type: DynamicFancyText
+      label: 'Out'
+      data_label: out
+      label_color: yellow
+      value_color: yellow
+      font_name: 10x20.bdf
+
+  thresholdheader:
+      type: FancyText
+      text: Threshold
+      font_name: 10x20.bdf
+      pallete:
+         text:
+            - 255
+            - 100
+            - 255
+
+  inventorycount:
+      type: DynamicFancyText
+      label: 'Items'
+      data_label: count
+      value_color: red
+      font_name: 9x18B.bdf
+      label_color: purple
+
+  inventoryheader:
+      type: FancyText
+      text: Inventory
+      font_name: 10x20.bdf
+      pallete:
+         text:
+            - 255
+            - 100
+            - 255
+
+  epc1:
+      type: DynamicFancyText
+      label: ''
+      data_label: epc1
+      label_color: yellow
+      value_color: yellow
+      font_name: 9x15B.bdf
+    
+  epc2:
+      type: DynamicFancyText
+      label: ''
+      data_label: epc2
+      label_color: green
+      value_color: green
+      font_name: 9x15B.bdf
+
+  epc3:
+      type: DynamicFancyText
+      label: ''
+      data_label: epc3
+      label_color: green
+      value_color: green
+      font_name: 9x15B.bdf     
+
+  logoimage:
+      type: Image
+      path: /home/pi/images/impinj64x128.jpg
+
+  healthheader:
+      type: FancyText
+      text: Health Alert
+      font_name: 10x20.bdf
+      pallete:
+         text:
+            - 255
+            - 0
+            - 0
+
+  healthtype:
+      type: DynamicFancyText
+      label: ''
+      data_label: healthtype
+      label_color: green
+      value_color: red
+      font_name: 8x13B.bdf
+    
+  healthcode:
+      type: DynamicFancyText
+      label: ''
+      data_label: healthcode
+      label_color: green
+      value_color: green
+      font_name: 6x13.bdf
+    
+  healthreader:
+      type: DynamicFancyText
+      label: ''
+      data_label: healthreader
+      label_color: yellow
+      value_color: yellow
+      font_name: 6x13.bdf
+
+scenes:
+  thresholdscene:
+      sprites:
+        - thresholdheader:
+            x: 20
+            y: 16
+        - thresholdIn:
+            x: 20
+            y: 40
+        - thresholdOut:
+            x: 20
+            y: 60
+
+  inventoryscene:
+      sprites:
+ #       - inventoryheader:
+ #           x: 0
+ #           y: 8
+        - inventorycount:
+            x: 0
+            y: 12
+        - epc1:
+            x: 0
+            y: 30
+        - epc2:
+            x: 0
+            y: 44
+        - epc3:
+            x: 0
+            y: 58
+
+  healthscene:
+      sprites:
+        - healthheader:
+            x: 0
+            y: 14
+        - healthtype:
+            x: 0
+            y: 32
+        - healthcode:
+            x: 0
+            y: 46
+        - healthreader:
+            x: 0
+            y: 60
+
+  logoscene:
+      sprites:
+        - logoimage:
+            x: 0
+            y: 0
+modes:
+  threshold:
+    - thresholdscene:
+        duration: 1
+        brightness: 100
+  inventory:
+    - inventoryscene:
+        duration: 1
+        brightness: 100
+  health:
+    - healthscene:
+        duration: 1
+        brightness: 100
+  startup:
+    - logoscene:
+        duration: 1
+        brightness: 100
+
+global:
+    font_dir: /home/pi/fonts
+    default_mode: startup

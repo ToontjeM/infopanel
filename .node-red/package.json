@@ -1,0 +1,11 @@
+{
+  "name": "node-red-project",
+  "description": "A Node-RED Project",
+  "version": "0.0.1",
+  "dependencies": {
+    "node-red-contrib-aws": "~0.7.0",
+    "node-red-contrib-ip": "~1.0.1",
+    "node-red-contrib-moment": "~4.0.0",
+    "node-red-contrib-webhookrelay": "~0.3.0"
+  }
+}
