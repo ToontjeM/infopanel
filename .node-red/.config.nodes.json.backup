@@ -406,7 +406,7 @@
     },
     "node-red-contrib-ip": {
         "name": "node-red-contrib-ip",
-        "version": "0.0.6",
+        "version": "1.0.1",
         "local": true,
         "user": true,
         "nodes": {
@@ -421,8 +421,7 @@
                 "module": "node-red-contrib-ip",
                 "file": "/home/pi/.node-red/node_modules/node-red-contrib-ip/ip.js"
             }
-        },
-        "pending_version": "1.0.1"
+        }
     },
     "node-red-contrib-aws": {
         "name": "node-red-contrib-aws",
