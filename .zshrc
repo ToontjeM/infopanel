@@ -4,10 +4,10 @@ export EDITOR='vim'
 
 # Completion
 fpath=($fpath ~/.zsh/completion)
-source ~/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source ~/.zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
+#source ~/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+#source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+#source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#source ~/.zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
 autoload -Uz compinit && compinit
 zmodload -i zsh/complist
 _comp_options+=(globdots)
@@ -33,8 +33,8 @@ setopt AUTOCD
 
 # Dir colors
 zstyle ':completion:*:default' list-colors ''
-source ~/.zsh/zcolors/zcolors.plugin.zsh
-source ~/.zcolors
+#source ~/.zsh/zcolors/zcolors.plugin.zsh
+#source ~/.zcolors
 
 # History
 setopt HIST_EXPIRE_DUPS_FIRST

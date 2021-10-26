@@ -580,3 +580,38 @@ ps -ef
 vim lacework.yaml 
 sudo vim /etc/wpa_supplicant/wpa_supplicant.conf 
 sudo reboot
+ls
+echo "# infopanel" >> README.md
+git init
+git commit -am "Initial commit"
+git config --global user.email "ton.machielsen@lacework.net"
+git config --global user.name "Ton MAchielsen"
+git config --global user.name "Ton Machielsen"
+git commit -am "Initial commit"
+git add .
+git branch -M main
+git remote add origin https://github.com/TonAtLacework/infopanel.git
+git push -u origin main
+git commit -am "Initial commit"
+git push -u origin main
+git push -u origin master
+ls .ssh
+ssh-keygen -t rsa -C "ton.machielsen@lacework.net"
+ssh -T git@github.com
+ssh-keygen -t rsa -C "ton.machielsen@lacework.net"
+ssh -T git@github.com
+cat .ssh/id_rsa.pub 
+ssh -T git@github.com
+git remote set-url origin git@github.com:TonAtLacework/infopanel.git
+git commit -am "Initial commit"
+vim .gitignore
+git status
+vim .gitignore
+git status
+vim .gitignore
+git status
+vim .gitignore
+git commit -am "Initial commit"
+git push
+git push --set-upstream origin master
+chsh -s /bin/zsh
